@@ -174,7 +174,9 @@
     "geography": {
       "popPerSqrMile": "3,922.6",
       "areaInSqrMiles": 153
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/colorado/colorado-springs",
       "rank": 3,
@@ -260,7 +262,9 @@
     "geography": {
       "popPerSqrMile": "2,140.6",
       "areaInSqrMiles": 194.54
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/arkansas/fayetteville",
       "rank": 4,
@@ -346,7 +350,9 @@
     "geography": {
       "popPerSqrMile": "1,366.4",
       "areaInSqrMiles": 53.85
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/iowa/des-moines",
       "rank": 5,
@@ -432,7 +438,9 @@
     "geography": {
       "popPerSqrMile": "2,515.6",
       "areaInSqrMiles": 80.87
+    }
     },
+    {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/minnesota/minneapolis-st-paul",
       "rank": 6,
@@ -518,7 +526,9 @@
     "geography": {
       "popPerSqrMile": "7,088.3",
       "areaInSqrMiles": 53.97
+    }
     },
+    {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/california/san-francisco",
       "rank": 7,
@@ -604,7 +614,9 @@
     "geography": {
       "popPerSqrMile": "17,179.1",
       "areaInSqrMiles": 46.87
+    }
     },
+    {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/oregon/portland",
       "rank": 8,
@@ -690,7 +702,9 @@
     "geography": {
       "popPerSqrMile": "4,375.2",
       "areaInSqrMiles": 133.43
+    }
     },
+    {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/washington/seattle",
       "rank": 9,
@@ -776,7 +790,9 @@
     "geography": {
       "popPerSqrMile": "7,250.9",
       "areaInSqrMiles": 83.94
+    }
     },
+    {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/north-carolina/raleigh-durham",
       "rank": 10,
@@ -862,7 +878,9 @@
     "geography": {
       "popPerSqrMile": "2,826.3",
       "areaInSqrMiles": 142.9
+    }
     },
+    {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/alabama/huntsville",
       "rank": 11,
@@ -948,7 +966,9 @@
     "geography": {
       "popPerSqrMile": "861.5",
       "areaInSqrMiles": 209.05
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/wisconsin/madison",
       "rank": 12,
@@ -1034,7 +1054,9 @@
     "geography": {
       "popPerSqrMile": "3,037.0",
       "areaInSqrMiles": 76.79
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/michigan/grand-rapids",
       "rank": 13,
@@ -1120,7 +1142,9 @@
     "geography": {
       "popPerSqrMile": "4,235.6",
       "areaInSqrMiles": 44.4
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/california/san-jose",
       "rank": 14,
@@ -1206,7 +1230,9 @@
     "geography": {
       "popPerSqrMile": "5,358.7",
       "areaInSqrMiles": 176.53
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/tennessee/nashville",
       "rank": 15,
@@ -1292,7 +1318,9 @@
     "geography": {
       "popPerSqrMile": "1,265.4",
       "areaInSqrMiles": 475.13
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/north-carolina/asheville",
       "rank": 16,
@@ -1378,7 +1406,9 @@
     "geography": {
       "popPerSqrMile": "1,855.9",
       "areaInSqrMiles": 44.93
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/idaho/boise",
       "rank": 17,
@@ -1464,7 +1494,9 @@
     "geography": {
       "popPerSqrMile": "2,591.5",
       "areaInSqrMiles": 79.36
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/florida/sarasota",
       "rank": 18,
@@ -1550,7 +1582,9 @@
     "geography": {
       "popPerSqrMile": "3,540.9",
       "areaInSqrMiles": 14.66
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/district-of-columbia/washington",
       "rank": 19,
@@ -1636,7 +1670,9 @@
     "geography": {
       "popPerSqrMile": "9,856.6",
       "areaInSqrMiles": 61.05
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/north-carolina/charlotte",
       "rank": 20,
@@ -1722,8 +1758,10 @@
     "geography": {
       "popPerSqrMile": "2,457.1",
       "areaInSqrMiles": 297.68
-    },
-    "bestPlacesData": {
+    }
+  },
+  {
+        "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/texas/dallas-fort-worth",
       "rank": 21,
       "overall": 7,
@@ -1808,7 +1846,9 @@
     "geography": {
       "popPerSqrMile": "3,517.6",
       "areaInSqrMiles": 340.52
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/south-carolina/greenville",
       "rank": 22,
@@ -1894,7 +1934,9 @@
     "geography": {
       "popPerSqrMile": "2,037.4",
       "areaInSqrMiles": 28.67
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/maine/portland",
       "rank": 23,
@@ -1980,7 +2022,9 @@
     "geography": {
       "popPerSqrMile": "3,106.5",
       "areaInSqrMiles": 21.31
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/utah/salt-lake-city",
       "rank": 24,
@@ -2066,7 +2110,9 @@
     "geography": {
       "popPerSqrMile": "1,678.0",
       "areaInSqrMiles": 111.11
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/florida/melbourne",
       "rank": 25,
@@ -2152,7 +2198,9 @@
     "geography": {
       "popPerSqrMile": "2,246.4",
       "areaInSqrMiles": 33.86
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/arizona/phoenix",
       "rank": 26,
@@ -2238,7 +2286,9 @@
     "geography": {
       "popPerSqrMile": "2,797.8",
       "areaInSqrMiles": 516.7
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/massachusetts/boston",
       "rank": 27,
@@ -2324,7 +2374,9 @@
     "geography": {
       "popPerSqrMile": "12,792.7",
       "areaInSqrMiles": 48.28
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/new-york/albany",
       "rank": 28,
@@ -2410,7 +2462,9 @@
     "geography": {
       "popPerSqrMile": "4,575.3",
       "areaInSqrMiles": 21.39
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/kentucky/lexington-fayette",
       "rank": 29,
@@ -2496,7 +2550,9 @@
     "geography": {
       "popPerSqrMile": "1,042.8",
       "areaInSqrMiles": 283.65
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/texas/houston",
       "rank": 30,
@@ -2582,7 +2638,9 @@
     "geography": {
       "popPerSqrMile": "3,501.5",
       "areaInSqrMiles": 599.59
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/north-carolina/winston-salem",
       "rank": 31,
@@ -2668,7 +2726,9 @@
     "geography": {
       "popPerSqrMile": "1,733.6",
       "areaInSqrMiles": 132.45
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/nebraska/omaha",
       "rank": 32,
@@ -2754,7 +2814,9 @@
     "geography": {
       "popPerSqrMile": "3,217.9",
       "areaInSqrMiles": 127.09
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/nevada/reno",
       "rank": 33,
@@ -2840,7 +2902,9 @@
     "geography": {
       "popPerSqrMile": "2,186.4",
       "areaInSqrMiles": 103.01
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/texas/san-antonio",
       "rank": 34,
@@ -2926,7 +2990,9 @@
     "geography": {
       "popPerSqrMile": "2,879.8",
       "areaInSqrMiles": 460.93
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/florida/fort-myers",
       "rank": 35,
@@ -3012,7 +3078,9 @@
     "geography": {
       "popPerSqrMile": "1,559.1",
       "areaInSqrMiles": 39.96
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/california/san-diego",
       "rank": 36,
@@ -3098,7 +3166,9 @@
     "geography": {
       "popPerSqrMile": "4,020.4",
       "areaInSqrMiles": 325.19
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/florida/pensacola",
       "rank": 37,
@@ -3184,7 +3254,9 @@
     "geography": {
       "popPerSqrMile": "2,303.5",
       "areaInSqrMiles": 22.54
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/indiana/indianapolis",
       "rank": 38,
@@ -3270,7 +3342,9 @@
     "geography": {
       "popPerSqrMile": "2,270.0",
       "areaInSqrMiles": 361.43
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/ohio/cincinnati",
       "rank": 39,
@@ -3356,7 +3430,9 @@
     "geography": {
       "popPerSqrMile": "3,809.8",
       "areaInSqrMiles": 77.94
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/indiana/fort-wayne",
       "rank": 40,
@@ -3442,7 +3518,9 @@
     "geography": {
       "popPerSqrMile": "2,293.4",
       "areaInSqrMiles": 110.62
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/michigan/lansing",
       "rank": 41,
@@ -3528,7 +3606,9 @@
     "geography": {
       "popPerSqrMile": "3,170.6",
       "areaInSqrMiles": 36.05
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/florida/jacksonville",
       "rank": 42,
@@ -3614,7 +3694,9 @@
     "geography": {
       "popPerSqrMile": "2,913.1",
       "areaInSqrMiles": 7.33
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/new-hampshire/manchester",
       "rank": 43,
@@ -3700,7 +3782,9 @@
     "geography": {
       "popPerSqrMile": "3,310.0",
       "areaInSqrMiles": 33.1
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/pennsylvania/harrisburg",
       "rank": 44,
@@ -3786,7 +3870,9 @@
     "geography": {
       "popPerSqrMile": "6,092.0",
       "areaInSqrMiles": 8.13
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/south-carolina/charleston",
       "rank": 45,
@@ -3872,7 +3958,9 @@
     "geography": {
       "popPerSqrMile": "1,101.9",
       "areaInSqrMiles": 108.98
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/tennessee/knoxville",
       "rank": 46,
@@ -3958,7 +4046,9 @@
     "geography": {
       "popPerSqrMile": "1,815.6",
       "areaInSqrMiles": 98.52
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/connecticut/hartford",
       "rank": 47,
@@ -4044,7 +4134,9 @@
     "geography": {
       "popPerSqrMile": "7,178.8",
       "areaInSqrMiles": 17.38
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/pennsylvania/lancaster",
       "rank": 48,
@@ -4130,7 +4222,9 @@
     "geography": {
       "popPerSqrMile": "8,209.5",
       "areaInSqrMiles": 7.23
-    },
+    }
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/missouri/kansas-city",
       "rank": 49,
@@ -4217,6 +4311,8 @@
       "popPerSqrMile": "1,459.9",
       "areaInSqrMiles": 314.95
     },
+  },
+  {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/pennsylvania/pittsburgh",
       "rank": 50,

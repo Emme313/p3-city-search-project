@@ -1,3 +1,5 @@
+const mongoose = require("mongoose");
+
 const CitySchema = new mongoose.Schema({
   bestPlacesData: {
     link: String,
@@ -90,3 +92,7 @@ const CitySchema = new mongoose.Schema({
     comment: String
   }
 });
+
+const theCities = mongoose.model("theCities", CitySchema)
+
+module.exports = theCities;
