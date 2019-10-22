@@ -1,20 +1,13 @@
 const mongoose = require("../db/connection");
 const Schema = mongoose.Schema;
 
-const childSchema = new Schema({
+const reviewSchema = new Schema({
   name: String,
   comment: String
 });
 
-const parentSchema = new Schema({
-  children: [childSchema],
-    // // _id: Schema.Types.ObjectId,
-    // reviewed: [
-    //     {
-    //         type: Schema.Types.ObjectId,
-    //         ref: "MVReview"
-    //     }
-    // ],
+const citySchema = new Schema({
+  children: [reviewSchema],
   bestPlacesData: {
     link: String,
     rank: Number,
@@ -103,5 +96,5 @@ const parentSchema = new Schema({
   }
 });
 
-const Parent = mongoose.model("Parent", parentSchema)
-module.exports = Parent;
+const Cities = mongoose.model("Cities", citySchema)
+module.exports = Cities;
