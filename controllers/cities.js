@@ -22,15 +22,15 @@ router.get("/", (req, res) => {
 
 
 // Getting children by parent
-router.get('/:id/children', (req, res) => {
+router.get('/:id/review', (req, res) => {
     Cities.findOne({ _id: req.params.id }).then(reviews => {
-        res.json(reviews.children);
+        res.json(reviews.reviews);
     })
 });
 
-// Get a single city by ID
-router.get('/:id', (req, res) => {
-    Cities.findOne({ _id: req.params.id }).then(city => {
+// Get a single city by city name (show page)
+router.get('/:city', (req, res) => {
+    Cities.findOne({ city: req.params.city }).then(city => {
         res.json(city);
     })
 });

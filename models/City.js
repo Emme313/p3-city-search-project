@@ -7,7 +7,8 @@ const reviewSchema = new Schema({
 });
 
 const citySchema = new Schema({
-  children: [reviewSchema],
+  city: String,
+  reviews: [reviewSchema],
   bestPlacesData: {
     link: String,
     rank: Number,
@@ -18,10 +19,9 @@ const citySchema = new Schema({
     qualityOfLife: Number,
     netMigration: Number
   },
-  general: {
+  state: {
     stateShort: String,
-    stateFull: String,
-    city: String
+    stateFull: String
   },
   population: {
     popEst2018: String,

@@ -1,11 +1,11 @@
 [
   {
-    "children": [
+    "reviews": [
       {"name": "Jody Foster",
-        "comment": "I fucken love Austin, Tejas!"
+        "comment": "I really love Austin, Tejas!"
       },
       {"name": "Jonah Hill",
-        "comment": "Austin is for loser hipsters!"
+        "comment": "Austin is for hipsters!"
       }
     ],
     "bestPlacesData": {
@@ -18,11 +18,11 @@
       "qualityOfLife": 7.3,
       "netMigration": 9
     },
-    "general": {
+    "state": {
       "stateShort": "TX",
-      "stateFull": "Texas",
-      "city": "Austin"
+      "stateFull": "Texas"
     },
+    "city": "Austin",
     "population": {
       "popEst2018": "964,254",
       "popChange": "20.2%",
@@ -106,11 +106,11 @@
       "qualityOfLife": 7,
       "netMigration": 7.6
     },
-    "general": {
+    "state": {
       "stateShort": "CO",
-      "stateFull": "Colorado",
-      "city": "Denver"
+      "stateFull": "Colorado"
     },
+    "city": "Denver",
     "population": {
       "popEst2018": "716,492",
       "popChange": "19.5%",
@@ -194,11 +194,11 @@
       "qualityOfLife": 7,
       "netMigration": 7.2
     },
-    "general": {
+    "state": {
       "stateShort": "CO",
-      "stateFull": "Colorado",
-      "city": "ColoradoSprings"
+      "stateFull": "Colorado"
     },
+    "city": "Colorado Springs",
     "population": {
       "popEst2018": "472,688",
       "popChange": "13.2%",
@@ -282,11 +282,11 @@
       "qualityOfLife": 7.5,
       "netMigration": 8
     },
-    "general": {
+    "state": {
       "stateShort": "AR",
-      "stateFull": "Arkansas",
-      "city": "Fayetteville"
+      "stateFull": "Arkansas"
     },
+    "city": "Fayetteville",
     "population": {
       "popEst2018": "86,751",
       "popChange": "17.9%",
@@ -370,11 +370,11 @@
       "qualityOfLife": 7,
       "netMigration": 7.5
     },
-    "general": {
+    "state": {
       "stateShort": "IA",
-      "stateFull": "Iowa",
-      "city": "DesMoines"
+      "stateFull": "Iowa"
     },
+    "city": "Des Moines",
     "population": {
       "popEst2018": "216,853",
       "popChange": "6.2%",
@@ -458,11 +458,11 @@
       "qualityOfLife": 7.1,
       "netMigration": 6.3
     },
-    "general": {
+    "state": {
       "stateShort": "MN",
-      "stateFull": "Minnesota",
-      "city": "Minneapolis"
+      "stateFull": "Minnesota"
     },
+    "city": "Minneapolis",
     "population": {
       "popEst2018": "425,403",
       "popChange": "11.2%",
@@ -546,11 +546,11 @@
       "qualityOfLife": 6.8,
       "netMigration": 6.8
     },
-    "general": {
+    "state": {
       "stateShort": "CA",
-      "stateFull": "California",
-      "city": "SanFrancisco"
+      "stateFull": "California"
     },
+    "city": "San Francisco",
     "population": {
       "popEst2018": "883,305",
       "popChange": "9.7%",
@@ -634,11 +634,11 @@
       "qualityOfLife": 6.7,
       "netMigration": 7.3
     },
-    "general": {
+    "state": {
       "stateShort": "OR",
-      "stateFull": "Oregon",
-      "city": "Portland"
+      "stateFull": "Oregon"
     },
+    "city": "Portland",
     "population": {
       "popEst2018": "653,115",
       "popChange": "11.9%",
@@ -722,11 +722,11 @@
       "qualityOfLife": 6.6,
       "netMigration": 7.5
     },
-    "general": {
+    "state": {
       "stateShort": "WA",
-      "stateFull": "Washington",
-      "city": "Seattle"
+      "stateFull": "Washington"
     },
+    "city": "Seattle",
     "population": {
       "popEst2018": "744,955",
       "popChange": "22.4%",
@@ -810,11 +810,11 @@
       "qualityOfLife": 6.9,
       "netMigration": 7.9
     },
-    "general": {
+    "state": {
       "stateShort": "NC",
-      "stateFull": "NorthCarolina",
-      "city": "Raleigh"
+      "stateFull": "North Carolina"
     },
+    "city": "Raleigh",
     "population": {
       "popEst2018": "469,298",
       "popChange": "16.1%",
@@ -898,11 +898,11 @@
       "qualityOfLife": 6.6,
       "netMigration": 7
     },
-    "general": {
+    "state": {
       "stateShort": "AL",
-      "stateFull": "Alabama",
-      "city": "Huntsville"
+      "stateFull": "Alabama"
     },
+    "city": "Huntsville",
     "population": {
       "popEst2018": "197,318",
       "popChange": "9.4%",
@@ -986,11 +986,11 @@
       "qualityOfLife": 7.5,
       "netMigration": 6.6
     },
-    "general": {
+    "state": {
       "stateShort": "WI",
-      "stateFull": "Wisconsin",
-      "city": "Madison"
+      "stateFull": "Wisconsin"
     },
+    "city": "Madison",
     "population": {
       "popEst2018": "258,054",
       "popChange": "10.7%",
@@ -1074,11 +1074,11 @@
       "qualityOfLife": 7.6,
       "netMigration": 6.3
     },
-    "general": {
+    "state": {
       "stateShort": "MI",
-      "stateFull": "Michigan",
-      "city": "GrandRapids"
+      "stateFull": "Michigan"
     },
+    "city": "Grand Rapids",
     "population": {
       "popEst2018": "200,217",
       "popChange": "6.5%",
@@ -1162,11 +1162,11 @@
       "qualityOfLife": 7.6,
       "netMigration": 6.1
     },
-    "general": {
+    "state": {
       "stateShort": "CA",
-      "stateFull": "California",
-      "city": "SanJose"
+      "stateFull": "California"
     },
+    "city": "San Jose",
     "population": {
       "popEst2018": "1,030,119",
       "popChange": "8.2%",
@@ -1250,11 +1250,11 @@
       "qualityOfLife": 6.1,
       "netMigration": 8
     },
-    "general": {
+    "state": {
       "stateShort": "TN",
-      "stateFull": "Tennessee",
-      "city": "Nashville-Davidson"
+      "stateFull": "Tennessee"
     },
+    "city": "Nashville-Davidson",
     "population": {
       "popEst2018": "669,053",
       "popChange": "10.9%",
@@ -1338,11 +1338,11 @@
       "qualityOfLife": 7.5,
       "netMigration": 7.7
     },
-    "general": {
+    "state": {
       "stateShort": "NC",
-      "stateFull": "NorthCarolina",
-      "city": "Asheville"
+      "stateFull": "North Carolina"
     },
+    "city": "Asheville",
     "population": {
       "popEst2018": "92,452",
       "popChange": "10.8%",
@@ -1426,11 +1426,11 @@
       "qualityOfLife": 7.2,
       "netMigration": 8.2
     },
-    "general": {
+    "state": {
       "stateShort": "ID",
-      "stateFull": "Idaho",
-      "city": "BoiseCity"
+      "stateFull": "Idaho"
     },
+    "city": "Boise",
     "population": {
       "popEst2018": "228,790",
       "popChange": "9.3%",
@@ -1514,11 +1514,11 @@
       "qualityOfLife": 7.4,
       "netMigration": 10
     },
-    "general": {
+    "state": {
       "stateShort": "FL",
-      "stateFull": "Florida",
-      "city": "Sarasota"
+      "stateFull": "Florida"
     },
+    "city": "Sarasota",
     "population": {
       "popEst2018": "57,738",
       "popChange": "10.8%",
@@ -1602,11 +1602,11 @@
       "qualityOfLife": 6.6,
       "netMigration": 6.3
     },
-    "general": {
+    "state": {
       "stateShort": "DC",
-      "stateFull": "DistrictofColumbia",
-      "city": "Washington"
+      "stateFull": "District of Columbia"
     },
+    "city": "Washington",
     "population": {
       "popEst2018": "702,455",
       "popChange": "16.7%",
@@ -1690,11 +1690,11 @@
       "qualityOfLife": 6.5,
       "netMigration": 8
     },
-    "general": {
+    "state": {
       "stateShort": "NC",
-      "stateFull": "NorthCarolina",
-      "city": "Charlotte"
+      "stateFull": "North Carolina"
     },
+    "city": "Charlotte",
     "population": {
       "popEst2018": "872,498",
       "popChange": "18.6%",
@@ -1778,11 +1778,11 @@
       "qualityOfLife": 6.7,
       "netMigration": 7.6
     },
-    "general": {
+    "state": {
       "stateShort": "TX",
-      "stateFull": "Texas",
-      "city": "Dallas"
+      "stateFull": "Texas"
     },
+    "city": "Dallas",
     "population": {
       "popEst2018": "1,345,047",
       "popChange": "12.3%",
@@ -1866,11 +1866,11 @@
       "qualityOfLife": 6.8,
       "netMigration": 7.3
     },
-    "general": {
+    "state": {
       "stateShort": "SC",
-      "stateFull": "SouthCarolina",
-      "city": "Greenville"
+      "stateFull": "South Carolina"
     },
+    "city": "Greenville",
     "population": {
       "popEst2018": "68,563",
       "popChange": "15.9%",
@@ -1954,11 +1954,11 @@
       "qualityOfLife": 7.6,
       "netMigration": 6.5
     },
-    "general": {
+    "state": {
       "stateShort": "ME",
-      "stateFull": "Maine",
-      "city": "Portland"
+      "stateFull": "Maine"
     },
+    "city": "Portland",
     "population": {
       "popEst2018": "66,417",
       "popChange": "0.3%",
@@ -2042,11 +2042,11 @@
       "qualityOfLife": 6.9,
       "netMigration": 6.6
     },
-    "general": {
+    "state": {
       "stateShort": "UT",
-      "stateFull": "Utah",
-      "city": "SaltLakeCity"
+      "stateFull": "Utah"
     },
+    "city": "Salt Lake City",
     "population": {
       "popEst2018": "200,591",
       "popChange": "7.6%",
@@ -2130,11 +2130,11 @@
       "qualityOfLife": 7.4,
       "netMigration": 8.6
     },
-    "general": {
+    "state": {
       "stateShort": "FL",
-      "stateFull": "Florida",
-      "city": "Melbourne"
+      "stateFull": "Florida"
     },
+    "city": "Melbourne",
     "population": {
       "popEst2018": "82,826",
       "popChange": "8.6%",
@@ -2218,11 +2218,11 @@
       "qualityOfLife": 6.4,
       "netMigration": 7.8
     },
-    "general": {
+    "state": {
       "stateShort": "AZ",
-      "stateFull": "Arizona",
-      "city": "Phoenix"
+      "stateFull": "Arizona"
     },
+    "city": "Phoenix",
     "population": {
       "popEst2018": "1,660,272",
       "popChange": "14.7%",
@@ -2306,11 +2306,11 @@
       "qualityOfLife": 7,
       "netMigration": 6.4
     },
-    "general": {
+    "state": {
       "stateShort": "MA",
-      "stateFull": "Massachusetts",
-      "city": "Boston"
+      "stateFull": "Massachusetts"
     },
+    "city": "Boston",
     "population": {
       "popEst2018": "694,583",
       "popChange": "12.4%",
@@ -2394,11 +2394,11 @@
       "qualityOfLife": 7.2,
       "netMigration": 5.9
     },
-    "general": {
+    "state": {
       "stateShort": "NY",
-      "stateFull": "NewYork",
-      "city": "Albany"
+      "stateFull": "New York"
     },
+    "city": "Albany",
     "population": {
       "popEst2018": "97,279",
       "popChange": "-0.6%",
@@ -2482,11 +2482,11 @@
       "qualityOfLife": 6.9,
       "netMigration": 6.7
     },
-    "general": {
+    "state": {
       "stateShort": "KY",
-      "stateFull": "Kentucky",
-      "city": "Lexington-Fayette"
+      "stateFull": "Kentucky"
     },
+    "city": "Lexington-Fayette",
     "population": {
       "popEst2018": "323,780",
       "popChange": "9.4%",
@@ -2570,11 +2570,11 @@
       "qualityOfLife": 6.5,
       "netMigration": 7.6
     },
-    "general": {
+    "state": {
       "stateShort": "TX",
-      "stateFull": "Texas",
-      "city": "Houston"
+      "stateFull": "Texas"
     },
+    "city": "Houston",
     "population": {
       "popEst2018": "2,325,502",
       "popChange": "11.1%",
@@ -2658,11 +2658,11 @@
       "qualityOfLife": 6.5,
       "netMigration": 6.5
     },
-    "general": {
+    "state": {
       "stateShort": "NC",
-      "stateFull": "NorthCarolina",
-      "city": "Winston-Salem"
+      "stateFull": "North Carolina"
     },
+    "city": "Winston-Salem",
     "population": {
       "popEst2018": "246,328",
       "popChange": "7.3%",
@@ -2746,11 +2746,11 @@
       "qualityOfLife": 6.7,
       "netMigration": 6.2
     },
-    "general": {
+    "state": {
       "stateShort": "NE",
-      "stateFull": "Nebraska",
-      "city": "Omaha"
+      "stateFull": "Nebraska"
     },
+    "city": "Omaha",
     "population": {
       "popEst2018": "468,262",
       "popChange": "4.0%",
@@ -2834,11 +2834,11 @@
       "qualityOfLife": 7.4,
       "netMigration": 7.5
     },
-    "general": {
+    "state": {
       "stateShort": "NV",
-      "stateFull": "Nevada",
-      "city": "Reno"
+      "stateFull": "Nevada"
     },
+    "city": "Reno",
     "population": {
       "popEst2018": "250,998",
       "popChange": "11.4%",
@@ -2922,11 +2922,11 @@
       "qualityOfLife": 6.5,
       "netMigration": 7.9
     },
-    "general": {
+    "state": {
       "stateShort": "TX",
-      "stateFull": "Texas",
-      "city": "SanAntonio"
+      "stateFull": "Texas"
     },
+    "city": "San Antonio",
     "population": {
       "popEst2018": "1,532,233",
       "popChange": "15.5%",
@@ -3010,11 +3010,11 @@
       "qualityOfLife": 6.5,
       "netMigration": 10
     },
-    "general": {
+    "state": {
       "stateShort": "FL",
-      "stateFull": "Florida",
-      "city": "FortMyers"
+      "stateFull": "Florida"
     },
+    "city": "Fort Myers",
     "population": {
       "popEst2018": "82,254",
       "popChange": "32.0%",
@@ -3098,11 +3098,11 @@
       "qualityOfLife": 7.5,
       "netMigration": 6.1
     },
-    "general": {
+    "state": {
       "stateShort": "CA",
-      "stateFull": "California",
-      "city": "SanDiego"
+      "stateFull": "California"
     },
+    "city": "San Diego",
     "population": {
       "popEst2018": "1,425,976",
       "popChange": "9.5%",
@@ -3186,11 +3186,11 @@
       "qualityOfLife": 6.5,
       "netMigration": 7.3
     },
-    "general": {
+    "state": {
       "stateShort": "FL",
-      "stateFull": "Florida",
-      "city": "Pensacola"
+      "stateFull": "Florida"
     },
+    "city": "Pensacola",
     "population": {
       "popEst2018": "52,713",
       "popChange": "1.4%",
@@ -3274,11 +3274,11 @@
       "qualityOfLife": 6.1,
       "netMigration": 6.5
     },
-    "general": {
+    "state": {
       "stateShort": "IN",
-      "stateFull": "Indiana",
-      "city": "Indianapolis"
+      "stateFull": "Indiana"
     },
+    "city": "Indianapolis",
     "population": {
       "popEst2018": "867,125",
       "popChange": "5.7%",
@@ -3362,11 +3362,11 @@
       "qualityOfLife": 6.5,
       "netMigration": 5.9
     },
-    "general": {
+    "state": {
       "stateShort": "OH",
-      "stateFull": "Ohio",
-      "city": "Cincinnati"
+      "stateFull": "Ohio"
     },
+    "city": "Cincinnati",
     "population": {
       "popEst2018": "302,605",
       "popChange": "1.9%",
@@ -3450,11 +3450,11 @@
       "qualityOfLife": 6.2,
       "netMigration": 5.9
     },
-    "general": {
+    "state": {
       "stateShort": "IN",
-      "stateFull": "Indiana",
-      "city": "FortWayne"
+      "stateFull": "Indiana"
     },
+    "city": "Fort Wayne",
     "population": {
       "popEst2018": "267,633",
       "popChange": "5.5%",
@@ -3538,11 +3538,11 @@
       "qualityOfLife": 7.1,
       "netMigration": 6
     },
-    "general": {
+    "state": {
       "stateShort": "MI",
-      "stateFull": "Michigan",
-      "city": "Lansing"
+      "stateFull": "Michigan"
     },
+    "city": "Lansing",
     "population": {
       "popEst2018": "118,427",
       "popChange": "3.7%",
@@ -3626,11 +3626,11 @@
       "qualityOfLife": 6.6,
       "netMigration": 8
     },
-    "general": {
+    "state": {
       "stateShort": "FL",
-      "stateFull": "Florida",
-      "city": "JacksonvilleBeach"
+      "stateFull": "Florida"
     },
+    "city": "Jacksonville Beach",
     "population": {
       "popEst2018": "23,669",
       "popChange": "10.8%",
@@ -3714,11 +3714,11 @@
       "qualityOfLife": 7.1,
       "netMigration": 5.9
     },
-    "general": {
+    "state": {
       "stateShort": "NH",
-      "stateFull": "NewHampshire",
-      "city": "Manchester"
+      "stateFull": "New Hampshire"
     },
+    "city": "Manchester",
     "population": {
       "popEst2018": "112,525",
       "popChange": "2.7%",
@@ -3802,11 +3802,11 @@
       "qualityOfLife": 6.9,
       "netMigration": 6.3
     },
-    "general": {
+    "state": {
       "stateShort": "PA",
-      "stateFull": "Pennsylvania",
-      "city": "Harrisburg"
+      "stateFull": "Pennsylvania"
     },
+    "city": "Harrisburg",
     "population": {
       "popEst2018": "49,229",
       "popChange": "-0.6%",
@@ -3890,11 +3890,11 @@
       "qualityOfLife": 6.5,
       "netMigration": 8.3
     },
-    "general": {
+    "state": {
       "stateShort": "SC",
-      "stateFull": "SouthCarolina",
-      "city": "Charleston"
+      "stateFull": "South Carolina"
     },
+    "city": "Charleston",
     "population": {
       "popEst2018": "136,208",
       "popChange": "13.0%",
@@ -3978,11 +3978,11 @@
       "qualityOfLife": 6.2,
       "netMigration": 6.8
     },
-    "general": {
+    "state": {
       "stateShort": "TN",
-      "stateFull": "Tennessee",
-      "city": "Knoxville"
+      "stateFull": "Tennessee"
     },
+    "city": "Knoxville",
     "population": {
       "popEst2018": "187,500",
       "popChange": "5.2%",
@@ -4066,11 +4066,11 @@
       "qualityOfLife": 7.2,
       "netMigration": 5.4
     },
-    "general": {
+    "state": {
       "stateShort": "CT",
-      "stateFull": "Connecticut",
-      "city": "Hartford"
+      "stateFull": "Connecticut"
     },
+    "city": "Hartford",
     "population": {
       "popEst2018": "122,587",
       "popChange": "-1.7%",
@@ -4154,11 +4154,11 @@
       "qualityOfLife": 7.7,
       "netMigration": 5.9
     },
-    "general": {
+    "state": {
       "stateShort": "PA",
-      "stateFull": "Pennsylvania",
-      "city": "Lancaster"
+      "stateFull": "Pennsylvania"
     },
+    "city": "Lancaster",
     "population": {
       "popEst2018": "59,420",
       "popChange": "0.1%",
@@ -4242,11 +4242,11 @@
       "qualityOfLife": 6.2,
       "netMigration": 6.3
     },
-    "general": {
+    "state": {
       "stateShort": "MO",
-      "stateFull": "Missouri",
-      "city": "KansasCity"
+      "stateFull": "Missouri"
     },
+    "city": "Kansas City",
     "population": {
       "popEst2018": "491,918",
       "popChange": "7.0%",
@@ -4330,11 +4330,11 @@
       "qualityOfLife": 6.3,
       "netMigration": 5.6
     },
-    "general": {
+    "state": {
       "stateShort": "PA",
-      "stateFull": "Pennsylvania",
-      "city": "Pittsburgh"
+      "stateFull": "Pennsylvania"
     },
+    "city": "Pittsburgh",
     "population": {
       "popEst2018": "301,048",
       "popChange": "-1.4%",
