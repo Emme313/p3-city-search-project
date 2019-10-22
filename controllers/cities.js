@@ -13,22 +13,29 @@ router.get("/", (req, res) => {
 
 // From show page, add comment
 router.put("/:city", (req, res) => {
-  // Cities.findOne({ city: req.params.city }).then(city => {
-  //     city.reviews.push(req.body.reviews)
-  //     city.save()
-  //     res.send(200)
-  //     console.log(city);
-  // })
-  // console.log("test");
-  Cities.findOneAndUpdate(
-    { city: req.params.city },
-    {
-      $push: { reviews: req.body.reviews }
-    }
-  ).then(() => res.send(200));
+  Cities.findOne({ city: req.params.city }).then(city => {
+      city.reviews.push(req.body.reviews)
+      city.save()
+      res.send(200)
+      console.log(city);
+  })
+//   console.log("test");
+//   Cities.findOneAndUpdate(
+//     { city: req.params.city },
+//     {
+//       $push: { reviews: req.body.reviews }
+//     }
+//   ).then(() => res.send(200));
 });
 
 // From show page go to edit or delete comment route
+router.get("/city/:city_id/review/:reviews_id", (req, res) => {
+    Cities.findById(req.params.city_id, (err, city) => {
+        if (err)
+            res.send(err);
+        res.json(city.reviews.id(req.params.reviews_id));
+    })
+});
 
 // From Edit page, edit comment action/route
 
