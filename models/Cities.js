@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+const mongoose = require("../db/connection");
 
 const CitySchema = new mongoose.Schema({
   bestPlacesData: {
@@ -87,10 +87,12 @@ const CitySchema = new mongoose.Schema({
     popPerSqrMile: String,
     areaInSqrMiles: String
   },
-  review: {
-    name: String,
-    comment: String
-  }
+  reviewed: [
+    {
+        ref: "Review",
+        type: mongoose.Schema.Types.ObjectId
+    }
+  ]
 });
 
 const theCities = mongoose.model("theCities", CitySchema)

@@ -2,29 +2,20 @@ const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
 const cors = require("cors");
-const mongoose = require("mongoose");
-// mongoose.Promise = Promise;
-const citiesRoutes = express.Router();
-const PORT = 4000;
+const citiesController = require("./controllers/cities")
 
-let theCities = require("./models/Cities");
+
+const corsOptions = {
+    origin: '*',
+    optionsSuccessStatus: 200,
+    credentials: true
+  }
 
 app.use(cors());
-app.use(bodyParser.json());
 
-mongoose.connect("mongodb://localhost/cities", {useNewUrlParser: true});
-const connection = mongoose.connection;
+app.use('/', cors(corsOptions), citiesController);
 
-connection.once("open", function() {
-    console.log("MongoDB database connection established successfully.");
-})
 
-// Endpoints
-citiesRoutes.route("/")
-
-// Router
-app.use("/cities", citiesRoutes);
-
-app.listen(PORT, function() {
-    console.log("Server is running on Port: " + PORT);
+app.listen(4000, () => {
+    console.log("We are connected.");
 });
