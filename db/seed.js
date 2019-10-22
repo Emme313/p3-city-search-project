@@ -1,4 +1,4 @@
-const Cities = require ("../models/Cities");
+const Cities = require ("../models/MVCities");
 const seedData = require ("./Cities.json");
 
 Cities.deleteMany({})

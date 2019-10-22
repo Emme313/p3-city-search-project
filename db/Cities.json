@@ -1,5 +1,13 @@
 [
   {
+    "children": [
+      {"name": "Jody Foster",
+        "comment": "I fucken love Austin, Tejas!"
+      },
+      {"name": "Jonah Hill",
+        "comment": "Austin is for loser hipsters!"
+      }
+    ],
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/texas/austin",
       "rank": 1,
@@ -87,7 +95,6 @@
       "areaInSqrMiles": 297.9
     }
   },
-
   {
     "bestPlacesData": {
       "link": "https://realestate.usnews.com/places/colorado/denver",
