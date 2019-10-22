@@ -12,6 +12,7 @@ const corsOptions = {
   }
 
 app.use(cors());
+app.use(bodyParser.json());
 
 app.use('/', cors(corsOptions), citiesController);
 
