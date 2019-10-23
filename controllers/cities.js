@@ -5,38 +5,16 @@ const Cities = require("../models/City");
 
 // Get list of cities
 router.get("/", (req, res) => {
-  // console.log(Parent);
   Cities.find({}).then(city => {
     res.json(city);
   });
 });
 
-
 // From Edit page, edit comment action/route
-// router.put("/city/:city/edit/review/:reviews_id", (req, res) => {
-//     Cities.findOne({ city: req.params.city }).then(city => {
-//         city.reviews.updateOne(city.reviews.id(req.params.reviews_id), {
-//             $set: {
-//                 "name.$": req.body.name,
-//                 "comment.$": req.body.comment
-//             }
-//         })
-//         city.save()
-//         res.send(200)
-//     })
-// });
-
 router.put("/:city/:reviews_id", (req, res) => {
-  // Cities.findOne({ city: req.params.city }).then(city => {
-  //   res.json(city);
-  // });
-
-  
   Cities.findOne({ city: req.params.city }).then(city => {
-    console.log(req.params.city);
-    var subDoc = city.reviews.id(req.params.reviews_id)
-    console.log(subDoc);
-    subDoc.set(req.body.reviews);
+    var review = city.reviews.id(req.params.reviews_id)
+    review.set(req.body.reviews);
     city.save().then(function (savedReview) {
       res.send(savedReview);
     }).catch(function (err) {
@@ -44,7 +22,6 @@ router.put("/:city/:reviews_id", (req, res) => {
     })
   });
 });
-
 
 // Worked with Ali for initial put route
 // From show page, add comment
@@ -55,11 +32,6 @@ router.put("/:city", (req, res) => {
       res.send(200)
       console.log(city);
   })
-//   console.log("test");
-//   Cities.findOneAndUpdate(
-//     { city: req.params.city },
-//     { $push: { reviews: req.body.reviews }}
-//   ).then(() => res.send(200));
 });
 
 // https://stackoverflow.com/questions/24922548/node-mongoose-express-rest-api-get-subdocument-with-id
@@ -73,7 +45,7 @@ router.get("/city/:city/edit/review/:reviews_id", (req, res) => {
 });
 
 // From Edit page, delete comment action/route
-router.put("/:city/:reviews_id", (req, res) => {
+router.put("/delete/:city/:reviews_id", (req, res) => {
   Cities.findOne({ city: req.params.city }).then(city => {
       city.reviews.remove(req.params.reviews_id)
       city.save()
