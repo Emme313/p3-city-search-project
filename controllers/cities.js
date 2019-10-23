@@ -28,19 +28,19 @@ router.put("/city/:city/edit/review/:reviews_id", (req, res) => {
 
 // Worked with Ali for initial put route
 // From show page, add comment
-router.put("/:city", (req, res) => {
-  Cities.findOne({ city: req.params.city }).then(city => {
-      city.reviews.push(req.body.reviews)
-      city.save()
-      res.send(200)
-      console.log(city);
-  })
-//   console.log("test");
-//   Cities.findOneAndUpdate(
-//     { city: req.params.city },
-//     { $push: { reviews: req.body.reviews }}
-//   ).then(() => res.send(200));
-});
+// router.put("/:city", (req, res) => {
+//   Cities.findOne({ city: req.params.city }).then(city => {
+//       city.reviews.push(req.body.reviews)
+//       city.save()
+//       res.send(200)
+//       console.log(city);
+//   })
+// //   console.log("test");
+// //   Cities.findOneAndUpdate(
+// //     { city: req.params.city },
+// //     { $push: { reviews: req.body.reviews }}
+// //   ).then(() => res.send(200));
+// });
 
 // https://stackoverflow.com/questions/24922548/node-mongoose-express-rest-api-get-subdocument-with-id
 // From show page go to edit or delete comment route
@@ -53,6 +53,14 @@ router.get("/city/:city/edit/review/:reviews_id", (req, res) => {
 });
 
 // From Edit page, delete comment action/route
+router.put("/:city/:reviews_id", (req, res) => {
+  Cities.findOne({ city: req.params.city }).then(city => {
+      city.reviews.remove(req.params.reviews_id)
+      city.save()
+      res.send(200)
+      console.log(city);
+  })
+});
 
 // Get reviews by city name
 router.get("/:city/reviews", (req, res) => {
