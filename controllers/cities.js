@@ -11,36 +11,49 @@ router.get("/", (req, res) => {
   });
 });
 
+
 // From Edit page, edit comment action/route
-router.put("/city/:city/edit/review/:reviews_id", (req, res) => {
-    Cities.findOne({ city: req.params.city }).then(city => {
-        city.reviews.updateOne(city.reviews.id(req.params.reviews_id), {
-            $set: {
-                "name.$": req.body.name,
-                "comment.$": req.body.comment
-            }
-        })
-        city.save()
-        res.send(200)
-    })
-});
+// router.put("/city/:city/edit/review/:reviews_id", (req, res) => {
+//     Cities.findOne({ city: req.params.city }).then(city => {
+//         city.reviews.updateOne(city.reviews.id(req.params.reviews_id), {
+//             $set: {
+//                 "name.$": req.body.name,
+//                 "comment.$": req.body.comment
+//             }
+//         })
+//         city.save()
+//         res.send(200)
+//     })
+// });
+
+// router.put("/:city/:reviews_id", (req, res) => {
+//   Cities.findOne(req.params.city, (err, city) => {
+//     var subDoc = Cities.reviews._id(req.params.reviews_id)
+//     subDoc.set(req.body);
+//     city.save().then(function (savedReview) {
+//       res.send(savedReview);
+//     }).catch(function (err) {
+//       res.status(500).send(err)
+//     })
+//   });
+// });
 
 
 // Worked with Ali for initial put route
 // From show page, add comment
-// router.put("/:city", (req, res) => {
-//   Cities.findOne({ city: req.params.city }).then(city => {
-//       city.reviews.push(req.body.reviews)
-//       city.save()
-//       res.send(200)
-//       console.log(city);
-//   })
-// //   console.log("test");
-// //   Cities.findOneAndUpdate(
-// //     { city: req.params.city },
-// //     { $push: { reviews: req.body.reviews }}
-// //   ).then(() => res.send(200));
-// });
+router.put("/:city", (req, res) => {
+  Cities.findOne({ city: req.params.city }).then(city => {
+      city.reviews.push(req.body.reviews)
+      city.save()
+      res.send(200)
+      console.log(city);
+  })
+//   console.log("test");
+//   Cities.findOneAndUpdate(
+//     { city: req.params.city },
+//     { $push: { reviews: req.body.reviews }}
+//   ).then(() => res.send(200));
+});
 
 // https://stackoverflow.com/questions/24922548/node-mongoose-express-rest-api-get-subdocument-with-id
 // From show page go to edit or delete comment route
