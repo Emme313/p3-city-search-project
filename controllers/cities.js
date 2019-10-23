@@ -26,17 +26,24 @@ router.get("/", (req, res) => {
 //     })
 // });
 
-// router.put("/:city/:reviews_id", (req, res) => {
-//   Cities.findOne(req.params.city, (err, city) => {
-//     var subDoc = Cities.reviews._id(req.params.reviews_id)
-//     subDoc.set(req.body);
-//     city.save().then(function (savedReview) {
-//       res.send(savedReview);
-//     }).catch(function (err) {
-//       res.status(500).send(err)
-//     })
-//   });
-// });
+router.put("/:city/:reviews_id", (req, res) => {
+  // Cities.findOne({ city: req.params.city }).then(city => {
+  //   res.json(city);
+  // });
+
+  
+  Cities.findOne({ city: req.params.city }).then(city => {
+    console.log(req.params.city);
+    var subDoc = city.reviews.id(req.params.reviews_id)
+    console.log(subDoc);
+    subDoc.set(req.body.reviews);
+    city.save().then(function (savedReview) {
+      res.send(savedReview);
+    }).catch(function (err) {
+      res.status(500).send(err)
+    })
+  });
+});
 
 
 // Worked with Ali for initial put route
