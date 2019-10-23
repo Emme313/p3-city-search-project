@@ -17,6 +17,12 @@ app.use(bodyParser.json());
 app.use('/', cors(corsOptions), citiesController);
 
 
-app.listen(4000, () => {
-    console.log("We are connected.");
+// app.listen(4000, () => {
+//     console.log("We are connected.");
+// });
+
+app.set("port", process.env.PORT || 4000);
+
+app.listen(app.get("port"), () => {
+  console.log(`PORT: ${app.get("port")}`);
 });
