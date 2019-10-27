@@ -70,7 +70,7 @@ From there, we defined each component that would be needed, and then built them 
 
 We then confirmed with the back-end on the format of the data, and the routes they were building, then implemented sample data and routes so we could build out both ends at the same time.
 
-Once the backend was deployed, we installed axios to access it, and removed our sample data.
+Once the backend was deployed, we installed axios to access it, and removed our sample data. Our front-end repository can be seen [here](https://github.com/wdixon2186/City-Search-Front-End).
 
 ### Back-End (Express and MongoDB)
 
